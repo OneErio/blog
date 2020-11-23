@@ -1,0 +1,21 @@
+.author-div{
+  text-align: center;
+  padding: 1rem;
+
+}
+.author-div div{
+  margin-bottom: 1rem;
+
+}
+.ant-divider-inner-text {
+  color: #4c4948;
+}
+.author-introduction{
+  font-size:1rem;
+  color: #4c4948;
+}
+.account{
+  background-color: #999;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}

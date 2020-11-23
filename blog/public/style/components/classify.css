@@ -1,0 +1,13 @@
+.classify-div {
+  font-size: 1.2rem;
+  margin-top: .5rem;
+  /* background-color: #dbb4e0; */
+}
+
+.classify-menv-item{
+  color: #4c4948;
+  font-size: 1.2rem !important;
+}
+.classify-menv{
+  border: 0;
+}

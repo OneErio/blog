@@ -1,0 +1,11 @@
+.tocify-box {
+  background-color:#fdb9cc;
+  font-weight:bolder;
+}
+
+.ant-anchor-ink::before {
+  background-color:#fffafa !important;
+}
+.ant-anchor-ink-ball {
+  background-color:#fffafa !important;
+}
