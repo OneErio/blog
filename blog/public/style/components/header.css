@@ -1,0 +1,98 @@
+.header {
+  position: relative;
+  background-color: #FC9D99;
+  /* background: url(/static_source/JERRY.jpg) center top no-repeat;
+  background-size:contain; */
+  /* padding: .4rem; */
+  overflow: hidden;
+  height: 26rem;
+  border-bottom: 1px solid #ccc;
+}
+.header:before{
+  content: "";
+  /* background-image:  url(/static_source/erio3.png), url(/static_source/all.png), url(/static_source/keima.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position:center top,80% bottom, 10% bottom;
+  background-size:contain, contain, contain; */
+  background: url(/static_source/all.png) center top no-repeat;
+  background-size:contain;
+  /* opacity: 0.3; */
+  top:3rem;
+  left:0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 10;
+ }
+.header-menu{
+  /* background-color: #2C3E50; */
+  visibility: visible;
+}
+.active{
+  animation: 1s ease 0s 1 normal none running headerNoOpacity;
+}
+.fixed{
+  background: #FC9D99;
+  position: fixed;
+  width: 100%;
+  top:0;
+  left:0;
+  z-index:999;
+}
+
+@keyframes headerNoOpacity {
+  0% {
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+
+/* .header-title{
+  font-size : 3.2rem;
+  margin-top: 1rem;
+  font-weight: bolder;
+  color: rgba(153,204,255,0.9);
+  -webkit-text-stroke: 1px rgba(51, 45, 50, 0.9);;
+} */
+.header-sub{
+  position: absolute;
+  top:75%;
+  left:50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+}
+.header-logo {
+  color: #1e90ff;
+  font-size: 1.4rem;
+  text-align: left;
+}
+.header-text {
+  font-size: .6rem;
+  color: #eee;
+  display: inline-block;
+  padding-left: .3rem;
+}
+.ant-menu{
+  background-color: transparent;
+  border-bottom: 0;
+  line-height: 2.8rem;
+}
+.ant-menu-item {
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #eee;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
