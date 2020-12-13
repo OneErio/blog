@@ -8,7 +8,7 @@ import '../public/style/components/author.css'
 const Author = () => {
   return (
     <div className="author-div comm-box">
-      <div><Avatar size={100} icon={<MehOutlined />}  src="https://raw.githubusercontent.com/OneErio/ImgLib/master/blog/header.jpg" /></div>
+      <div><Avatar size={100} icon={<MehOutlined />}  src="http://godkeima.oss-accelerate.aliyuncs.com/blog_index/header.jpg" /></div>
       <div className="author-introduction">
         前端小透明 & 越见越理解
         <Divider>社交账号</Divider>
