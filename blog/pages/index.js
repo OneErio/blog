@@ -53,6 +53,7 @@ const Home = (list) => {
     <div className="bg">
       <Head style={{backgroundColor:'red'}}>
         <title>Home</title>
+        <link rel="icon" href="/static_source/favicon.ico"/>
       </Head>
       <Header />
       <Row className="comm-main" type="flex" justify="center">
